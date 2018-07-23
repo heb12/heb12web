@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header('Content-Type: application/json');
 try {
-$token = 'Erq3dSI0KQ4z56zXiEs8nrMTu4RP7Tg7A1GDlYIb';
+$token = 'xxxxx';
 $url = 'https://bibles.org/v2/verses/'. $_GET['v'] .'.js';
 //$url = 'https://bibles.org/v2/passages.js?q[]='. $_GET['ref'] .'&version=eng-KJVA';
 // Set up cURL
@@ -23,6 +23,6 @@ $response = curl_exec($ch);
 curl_close($ch);
 echo $response;
 } catch(Exception $e) {
- echo 'Internal server error.';   
+ echo 'Internal server error.';
 }
 ?>
