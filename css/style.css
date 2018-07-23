@@ -1,0 +1,55 @@
+/* Copyright (c) 2018 MasterOfTheTiger. This file is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. (https://creativecommons.org/licenses/by-sa/4.0/) */
+
+@import url("normalize.css");
+@import url("mott.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header, footer {
+    max-width: 100%;
+    padding: 10px 10%;
+    color: white;
+    box-shadow: 0px 1px 10px grey;
+    background-color: #17bdef;
+    margin: 0;
+}
+header img {
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+header span a {
+    color: white;
+    text-decoration: none;
+}
+header span a:hover {
+    text-decoration: none;
+}
+
+#wrapper {
+    padding: 5px 10%;
+    margin: 0;
+}
+
+a {
+    color: #008fba;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#input {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 10px;
+}
