@@ -3,7 +3,8 @@ The web version of Heb12.
 
 It will support new features sooner than the desktop version.
 
-http://mott.x10host.com/heb12/
+This repo is published commit for commit from the master branch at our [testing site](http://mott.10host.com/heb12).
+
 
 ## Credits
 Copyright (c) 2018 MasterOfTheTiger. You may use this software under the terms of the MIT license. 
